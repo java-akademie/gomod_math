@@ -8,3 +8,8 @@ func Add(a ...int) int {
 	}
 	return sum
 }
+
+// Sub : returns a - b
+func Sub(a, b int) int {
+	return a - b
+}
